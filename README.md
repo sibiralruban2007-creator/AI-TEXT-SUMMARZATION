@@ -77,14 +77,7 @@ Generated Output
 Artificial Intelligence enables machines to perform tasks
 requiring human intelligence and is widely used in areas
 such as healthcare, education, transportation, and finance.
-⚙️ Installation
-1. Clone the Repository
-git clone https://github.com/yourusername/AI-Text-Summarizer.git
-cd AI-Text-Summarizer
-2. Install Required Libraries
-pip install -r requirements.txt
-3. Run the Application
-streamlit run app.py
+
 
 📁 Project Structure
 AI-Text-Summarizer/
