@@ -86,8 +86,6 @@ pip install -r requirements.txt
 3. Run the Application
 streamlit run app.py
 
-The application will open in your web browser.
-
 📁 Project Structure
 AI-Text-Summarizer/
 │
