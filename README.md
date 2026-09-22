@@ -1,5 +1,6 @@
-# AI-TEXT-SUMMARZATION
+
 🤖 AI Text Summarizer
+
 📌 About the Project
 
 The AI Text Summarizer is an AI-powered web application that summarizes long text into a shorter and meaningful version using a pretrained Transformer-based language model, Hugging Face Transformers, and Streamlit.
