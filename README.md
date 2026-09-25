@@ -1,23 +1,23 @@
 
-🤖 AI Text Summarizer
+ AI Text Summarizer
 
-📌 About the Project
+ About the Project
 
 The AI Text Summarizer is an AI-powered web application that summarizes long text into a shorter and meaningful version using a pretrained Transformer-based language model, Hugging Face Transformers, and Streamlit.
 
 The application provides a simple and user-friendly interface where users can enter or paste a long paragraph, click the Summarize Text button, and view the generated summary.
 
-✨ Features
-📝 User-friendly text input
-🤖 AI-powered text summarization
-🧠 Uses a pretrained Transformer model
-⚡ Fast and simple summarization
-🖥️ Interactive Streamlit interface
-📄 Summarizes long paragraphs
-📊 Displays the generated summary clearly
-🚫 Shows a warning when no text is provided
-🔄 Generates concise summaries automatically
-🛠️ Technologies Used
+ Features
+ User-friendly text input
+ AI-powered text summarization
+ Uses a pretrained Transformer model
+ Fast and simple summarization
+Interactive Streamlit interface
+ Summarizes long paragraphs
+ Displays the generated summary clearly
+ Shows a warning when no text is provided
+ Generates concise summaries automatically
+ Technologies Used
 Technology	Purpose
 Python	Application development
 Streamlit	Web application interface
@@ -25,7 +25,7 @@ Hugging Face Transformers	AI model and text summarization
 PyTorch	Deep learning framework
 Transformer Model	Text summarization
 GitHub	Version control and project hosting
-🧠 AI Model
+ AI Model
 
 This project uses a pretrained Transformer-based summarization model from Hugging Face.
 
@@ -39,7 +39,7 @@ Library	Hugging Face Transformers
 
 The BART model is designed for sequence-to-sequence tasks and can generate concise summaries from longer text.
 
-🔄 How It Works
+ How It Works
 
 The application follows a simple AI text summarization workflow:
 
@@ -63,10 +63,10 @@ Hugging Face Pipeline – The text is passed to the summarization pipeline.
 BART Model – The pretrained model processes the input.
 Text Summarization – The model generates a shorter version of the text.
 Generated Summary – The summary is displayed to the user.
-📸 Application Preview
+ Application Preview
 The Streamlit application provides a simple interface where users can:
 <img width="1016" height="716" alt="image" src="https://github.com/user-attachments/assets/ede0e39e-9fb7-4459-a3aa-474cee53642d" />
-🧪 Example
+Example
 Input
 Artificial Intelligence is a rapidly developing technology that
 enables computers and machines to perform tasks that normally
@@ -80,7 +80,7 @@ requiring human intelligence and is widely used in areas
 such as healthcare, education, transportation, and finance.
 
 
-📁 Project Structure
+Project Structure
 AI-Text-Summarizer/
 │
 ├── app.py
