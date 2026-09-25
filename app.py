@@ -5,12 +5,12 @@ from transformers import pipeline
 # Page configuration
 st.set_page_config(
     page_title="AI Text Summarizer",
-    page_icon="📝",
+    page_icon="",
     layout="centered"
 )
 
 # Application title
-st.title("📝 AI Text Summarizer")
+st.title(" AI Text Summarizer")
 st.write("Summarize text using the BART Large CNN model.")
 
 # Load the model only once
@@ -28,13 +28,13 @@ with st.spinner("Loading AI model..."):
 
 # User input
 text = st.text_area(
-    "✍️ Enter your text:",
+    "Enter your text:",
     placeholder="Paste the text you want to summarize here...",
     height=250
 )
 
 # Summarize button
-if st.button("📝 Summarize Text"):
+if st.button(" Summarize Text"):
     if text.strip() == "":
         st.warning("Please enter some text.")
     else:
@@ -48,7 +48,7 @@ if st.button("📝 Summarize Text"):
 
         summary = result[0]["summary_text"]
 
-        st.subheader("📌 Summary")
+        st.subheader(" Summary")
         st.write(summary)
 
 # Footer
